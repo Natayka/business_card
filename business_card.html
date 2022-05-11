@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body{
+            background: url("https://cdn.pixabay.com/photo/2019/03/28/10/19/sunset-4086848__340.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container{
+            margin: 60px auto;
+            width: 400px;
+            height: 150px;
+            padding: 30px;
+            border: 1px solid black;
+            color: darkgreen;
+        }
+
+        .business-card img{
+            float:left;
+        }
+
+        .username, .email, .download-cv{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .username span{
+            border-bottom: 2px solid darkgreen;
+            padding-bottom: 4px;
+        }
+
+        .email{
+            font-size: 15px;
+        }
+
+        .download-cv a{
+            color: darkgreen;
+            font-size: 15px;
+            text-decoration: none
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="business-card">
+            <img src="https://randomuser.me/api/portraits/women/94.jpg" alt="">
+            <p class="username">
+                <span>Daniela Fargo</span>
+            </p>
+            <p class="email">
+                <span>daniela@example.com</span>
+            </p>
+            <p class="download-cv">
+                <span>
+                    <a href="#">Download CV</a>
+                </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
